@@ -1,0 +1,253 @@
+# depslib dependency file v1.0
+1515136353 source:/home/x/sqlite_test/sqlite/can.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<net/if.h>
+	<sys/ioctl.h>
+	<sys/socket.h>
+	<linux/can.h>
+	<linux/can/raw.h>
+	<getopt.h>
+
+1519786961 source:/home/x/sqlite_test/sqlite/evc.c
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<net/if.h>
+	<sys/ioctl.h>
+	<sys/socket.h>
+	<linux/can.h>
+	<linux/can/raw.h>
+	<getopt.h>
+	<semaphore.h>
+	"sys_sem.h"
+	"sys_cfg.h"
+	"sys_logic_control.h"
+	"evc.h"
+	"can.h"
+	"debug.h"
+
+1514201541 /home/x/sqlite_test/sqlite/sys_sem.h
+	<semaphore.h>
+
+1520336453 /home/x/sqlite_test/sqlite/sys_cfg.h
+	<arpa/inet.h>
+
+1520238750 /home/x/sqlite_test/sqlite/sys_logic_control.h
+	<stdio.h>
+	"sys_cfg.h"
+
+1514200854 /home/x/sqlite_test/sqlite/evc.h
+	"sys_logic_control.h"
+
+1514200832 /home/x/sqlite_test/sqlite/can.h
+
+1514200832 /home/x/sqlite_test/sqlite/debug.h
+
+1514000558 source:/home/x/sqlite_test/sqlite/hw.c
+	<termios.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<string.h>
+	<stdlib.h>
+	<getopt.h>
+	<stdio.h>
+	"uart.h"
+
+1514874906 /home/x/sqlite_test/sqlite/uart.h
+	"sys_cfg.h"
+
+1509526160 source:/home/x/sqlite_test/sqlite/ini_file.c
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	"ini_file.h"
+
+1508155930 /home/x/sqlite_test/sqlite/ini_file.h
+
+1515634400 source:/home/x/sqlite_test/sqlite/lcd.c
+	<pthread.h>
+	<stdio.h>
+	<signal.h>
+	<stdlib.h>
+	<string.h>
+	"lcd.h"
+	<unistd.h>
+	<semaphore.h>
+	"sys_sem.h"
+	"uart.h"
+	"lcd_ui.h"
+
+1514201157 /home/x/sqlite_test/sqlite/lcd.h
+	<signal.h>
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<semaphore.h>
+	"sys_cfg.h"
+
+1519531062 /home/x/sqlite_test/sqlite/lcd_ui.h
+	"lcd.h"
+
+1520336452 source:/home/x/sqlite_test/sqlite/lcd_ui.c
+	<stddef.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	"lcd.h"
+	"sys_cfg.h"
+	"server.h"
+	"lcd_ui.h"
+	"sys_logic_control.h"
+	"evc.h"
+	"sqlite_opera.h"
+
+1520384848 /home/x/sqlite_test/sqlite/server.h
+	"sys_cfg.h"
+
+1520300672 source:/home/x/sqlite_test/sqlite/main.c
+	<pthread.h>
+	<stdio.h>
+	"hw.h"
+	"sys_cfg.h"
+	<unistd.h>
+	"lcd.h"
+	"server.h"
+	"evc.h"
+	"sys_logic_control.h"
+	"ini_file.h"
+	"sqlite3.h"
+	"sqlite_opera.h"
+
+1514201037 /home/x/sqlite_test/sqlite/hw.h
+
+1508567201 /home/x/sqlite_test/sqlite/db_opera.h
+
+1508501868 /home/x/sqlite_test/sqlite/sqlite3.h
+	<stdarg.h>
+
+1520472466 source:/home/x/sqlite_test/sqlite/server.c
+	<stdio.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<string.h>
+	<stdlib.h>
+	<semaphore.h>
+	"server.h"
+	"sys_cfg.h"
+	"sys_sem.h"
+	"sys_logic_control.h"
+	"lcd_ui.h"
+	"evc.h"
+	"debug.h"
+	"sqlite_opera.h"
+
+1520416809 source:/home/x/sqlite_test/sqlite/sqlite_opera.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<stddef.h>
+	<time.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"sqlite_opera.h"
+	"sys_cfg.h"
+	"debug.h"
+	"sys_logic_control.h"
+
+1520414476 /home/x/sqlite_test/sqlite/sqlite_opera.h
+	"sqlite3.h"
+	"sys_cfg.h"
+	"server.h"
+
+1519699133 source:/home/x/sqlite_test/sqlite/sys_cfg.c
+	"sys_cfg.h"
+	<string.h>
+	<stdio.h>
+	"ini_file.h"
+	<unistd.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<netinet/in.h>
+
+1520391429 source:/home/x/sqlite_test/sqlite/sys_logic_control.c
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<time.h>
+	<semaphore.h>
+	<signal.h>
+	"evc.h"
+	"sqlite_opera.h"
+	"io_control.h"
+	"sys_logic_control.h"
+	<linux/unistd.h>
+	<linux/kernel.h>
+
+1514200429 source:/home/x/sqlite_test/sqlite/sys_sem.c
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<unistd.h>
+	<unistd.h>
+	<semaphore.h>
+	<time.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"sys_sem.h"
+
+1515150130 source:/home/x/sqlite_test/sqlite/uart.c
+	<termios.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<string.h>
+	<stdlib.h>
+	<getopt.h>
+	<stdio.h>
+	<signal.h>
+	<features.h>
+	"sys_cfg.h"
+	"main.h"
+	"uart.h"
+
+1514201541 /home/x/sqlite_test/sqlite/main.h
+	"sys_cfg.h"
+	"lcd.h"
+
+1519977343 source:/home/x/sqlite_test/sqlite/io_control.c
+	"io_control.h"
+	<stdint.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<getopt.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<linux/types.h>
+	<errno.h>
+	<string.h>
+	<sys/time.h>
+
+1514201037 /home/x/sqlite_test/sqlite/io_control.h
+
